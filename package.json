@@ -1,5 +1,5 @@
 {
-	"name": "yammer-rest-api-client-node",
+	"name": "yammer-rest-api-client",
 	"version": "0.1.0",
 	"author": "Oscar Renalias <oscar@renalias.net> (http://www.renalias.net)",
 	"description": "A node.js client for Yammer's RESTful API",
