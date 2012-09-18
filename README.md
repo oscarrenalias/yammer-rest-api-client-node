@@ -46,11 +46,20 @@ client.messages.all({limit: 10, reverse: true }, function(error, data) {
 })
 ```
 
+The module is available from NPM:
+
+```
+"dependencies": {
+    "yammer-rest-api-client-node": ">= 0.0.0"
+}
+```
+
 Methods, parameters and callbacks
 =================================
 
 The following methods are supported:
 
+##Messages:
 * messages.all(params, callback)
 * messages.sent(params, callback)
 * messages.received(params, callback)
@@ -65,6 +74,7 @@ The following methods are supported:
 * messages.create(data, callback)
 * messages.get(id, callback)
 
+##Users:
 * users.list(params, callback)
 * users.get(id, callback)
 * users.create(data, callback)
@@ -73,8 +83,10 @@ The following methods are supported:
 * users.networks(callback)
 * users.current(callback)
 
+##Topics:
 * topics.get(params, callback)
 
+##Groups:
 * groups.list(params, callback)
 * groups.get(id, callback)
 * groups.create(data, callback)
@@ -93,3 +105,16 @@ Testing
 Unit tests are implemented with [Vows](http://vowsjs.org) and are located in the tests/ folder. Not all methods are currently tested.
 
 In order to execute the unit tests, edit first file tests/testconfig.js and provide your own OAuth 2.0 access token.
+
+License
+========
+Apache Software License 2.0: http://www.apache.org/licenses/LICENSE-2.0
+
+Changelog
+=========
+**Version 0.1.0**: Initial version
+
+TODO
+====
+* Implement the remaining API methods
+* Increase unit testing coverage
