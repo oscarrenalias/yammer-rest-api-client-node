@@ -54,12 +54,14 @@ The module is available from NPM:
 }
 ```
 
+Then, run ```npm install``` to force npm to retrieve the needed dependencies.
+
 Methods, parameters and callbacks
 =================================
 
 The following methods are supported:
 
-##Messages:
+###Messages:
 * messages.all(params, callback)
 * messages.sent(params, callback)
 * messages.received(params, callback)
@@ -74,7 +76,7 @@ The following methods are supported:
 * messages.create(data, callback)
 * messages.get(id, callback)
 
-##Users:
+###Users:
 * users.list(params, callback)
 * users.get(id, callback)
 * users.create(data, callback)
@@ -83,10 +85,10 @@ The following methods are supported:
 * users.networks(callback)
 * users.current(callback)
 
-##Topics:
+###Topics:
 * topics.get(params, callback)
 
-##Groups:
+###Groups:
 * groups.list(params, callback)
 * groups.get(id, callback)
 * groups.create(data, callback)
