@@ -1,5 +1,5 @@
 var YammerAPIClient = require('../lib/api.js'),
-	client = new YammerAPIClient({token:"oauth token"});
+	client = new YammerAPIClient({token:"-->>ADD HERE YOUR OAUTH TOKEN<<--"});
 
 client.messages.all({limit: 1}, function(error, data) {
 	if(error)
