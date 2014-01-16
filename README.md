@@ -10,6 +10,7 @@ Currently, the following are supported:
 * Users: 100 % 
 * Groups: 100 %
 * Topics: 100 %
+* Notifications: 25%
 * Likes: 0 %
 * Group memberships: 0 %
 * Relationships: 0 %
@@ -94,6 +95,9 @@ The following methods are supported:
 * groups.create(data, callback)
 * groups.update(id, data, callback)
 
+###Notifications:
+* notifications.get(params, callback)
+
 Methods that support additional URL (GET style) parameters such as [messages.all or messages.received](https://developer.yammer.com/api/#message-viewing), they are provided in the params structure using the same field names as described in the official Yammer API. 
 
 Methos that require JSON structures such as [user.create](https://developer.yammer.com/api/#users) will be provided such structures also in the position of the params parameter. Since the structures vary depending on the API method please consult the documentation for each, as the client does not perform any kind of parameter and value checks before sending the data and will not warn you if the structure is incorrect.
@@ -115,8 +119,10 @@ Apache Software License 2.0: http://www.apache.org/licenses/LICENSE-2.0
 Changelog
 =========
 **Version 0.1.0**: Initial version
+**Version 0.2.0**: Added support for the notifications API by @CodeOtter
 
 TODO
 ====
 * Implement the remaining API methods
+* Add support for Grunt
 * Increase unit testing coverage
