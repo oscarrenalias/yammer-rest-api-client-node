@@ -51,7 +51,7 @@ The module is available from NPM:
 
 ```
 "dependencies": {
-    "yammer-rest-api-client-node": ">= 0.0.0"
+    "yammer-rest-api-client": "latest"
 }
 ```
 
