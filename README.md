@@ -34,7 +34,7 @@ The main object containing the API methods is YammerAPIClient, that requires a v
 Once a token is available, create a new API client and call the needed method in the _messages_, _users_, _groups_, or _topics_ namespaces. The sample code below performs a call to retrieve messages from the "All Company" stream, limiting to 10 per page and in reverse order:
 
 ```
-var YammerAPIClient = require('yammer-rest-api-client-node'),
+var YammerAPIClient = require('yammer-rest-api-client'),
 	client = new YammerAPIClient({ token: "your-oauth-2.0-token" });
 
 client.messages.all({limit: 10, reverse: true }, function(error, data) {
