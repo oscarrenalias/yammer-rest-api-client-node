@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/oscarrenalias/yammer-rest-api-client-node.git"
   },
+  "scripts": {
+    "test": "vows test/*.js --spec"
+  },
   "license": "Apache Software License 2.0",
   "engines": {
     "node": ">= 0.6.0"
