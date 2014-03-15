@@ -1,7 +1,7 @@
 var YammerAPIClient = require('../lib/api.js'),
 	vows = require('vows'),
 	assert = require('assert'),
-	config = require('./testconfig'),
+	config = require('./helper/testconfig'),
 	client = new YammerAPIClient(config);
 
 /**
