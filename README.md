@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/oscarrenalias/yammer-rest-api-client-node.png)](https://codeclimate.com/github/oscarrenalias/yammer-rest-api-client-node)
+
 yammer-rest-api-client
 ======================
 This is a client for [Yammer's RESTful API](https://developer.yammer.com/api) for Node.js. The module only implements some of the basic components of the API, but it can be easily extended to support additional functionality.

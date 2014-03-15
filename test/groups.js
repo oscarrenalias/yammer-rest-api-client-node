@@ -1,7 +1,7 @@
 var YammerGroupsAPI = require('../lib/groups.js'),
 	vows = require('vows'),
 	assert = require('assert'),
-	config = require('./testconfig'),
+	config = require('./helper/testconfig'),
 	groupsClient = new YammerGroupsAPI(config)
 
 vows.describe('Yammer groups API').addBatch({
