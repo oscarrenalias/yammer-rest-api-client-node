@@ -10,7 +10,7 @@
     "url": "https://github.com/oscarrenalias/yammer-rest-api-client-node.git"
   },
   "scripts": {
-    "test": "vows test/*.js --spec"
+    "test": "jasmine-node test/spec"
   },
   "license": "Apache Software License 2.0",
   "engines": {
@@ -20,10 +20,10 @@
     "winston": ">= 0.6.0"
   },
   "devDependencies": {
-    "grunt": "^0.4.4",
-    "grunt-vows": "^0.4.0",
-    "grunt-contrib-jshint": "^0.9.2",
-    "grunt-contrib-clean": "^0.5.0",
-    "vows": "^0.7.0"
+    "grunt": "0.4.x",
+    "grunt-contrib-jshint": "0.9.x",
+    "nock": "0.27.x",
+    "jasmine-node": "1.14.x",
+    "grunt-jasmine-node-coverage": "0.1.x"
   }
 }
