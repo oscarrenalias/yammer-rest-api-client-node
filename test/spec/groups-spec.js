@@ -1,3 +1,5 @@
+"use strict";
+
 var YammerGroupsAPI = require("../../lib/groups");
 var config = require('../helper/testconfig');
 var nock = require('nock');
@@ -40,7 +42,7 @@ describe("Requests all groups", function () {
     groupsClient.list({}, function(error, data){
       expect(data).not.toBe(null);
       expect(data.length).toBeGreaterThan(0);
-      expect(data[0].type).equalTo('topic');
+      expect(data[0].type).toEqual('group');
       done();      
     });
   });
