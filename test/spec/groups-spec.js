@@ -38,7 +38,7 @@ var yammerGroupsRequest = nock('https://www.yammer.com')
 describe("Requests all groups", function () {
   it("should return groups", function (done) {
     groupsClient.list({}, function(error, data){
-      expect(a).not.toBe(null);
+      expect(data).not.toBe(null);
       expect(data.length).toBeGreaterThan(0);
       expect(data[0].type).equalTo('topic');
       done();      
