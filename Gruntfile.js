@@ -21,7 +21,13 @@ module.exports = function(grunt) {
       }
     },
     jshint: {
-      all: ['Gruntfile.js', 'lib/**/*.js', 'test/**/*.js']
+      ignore_warning: {
+        // Ignore a specific warning that is not really a problem in our code
+        options: {
+          '-W083': true,
+        },
+        src: ['Gruntfile.js', 'lib/**/*.js', 'test/**/*.js'],
+      }
     }
   });
 
