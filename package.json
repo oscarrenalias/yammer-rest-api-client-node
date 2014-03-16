@@ -22,8 +22,8 @@
   "devDependencies": {
     "grunt": "0.4.x",
     "grunt-contrib-jshint": "0.9.x",
-    "grunt-contrib-clean": "0.5.x",
     "nock": "0.27.x",
-    "jasmine-node": "1.14.x"
+    "jasmine-node": "1.14.x",
+    "grunt-jasmine-node-coverage": "0.1.x"
   }
 }

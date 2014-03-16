@@ -1,4 +1,4 @@
-//token.json is ignored by git, this allows the developer to persist their token to
+//tokens.json is ignored by git, this allows the developer to persist their token to
 //disk and not be concerned about it being shared publically
 //example;
 
