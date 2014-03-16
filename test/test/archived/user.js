@@ -2,7 +2,7 @@ var YammerUserAPI = require('../lib/user.js'),
 	vows = require('vows'),
 	assert = require('assert'),
 	config = require('./helper/testconfig'),
-	userClient = new YammerUserAPI(config)
+	userClient = new YammerUserAPI(config);
 
 vows.describe('Yammer users API').addBatch({
 	'when requesting all users': {

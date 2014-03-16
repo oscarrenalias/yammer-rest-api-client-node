@@ -4,4 +4,6 @@ node_js:
   - "0.10"
   - "0.8"
 before_script:
-  - "npm i -g jasmine-node && npm install -g istanbul"
+  - "npm i -g jasmine-node && npm i -g istanbul && npm i grunt-cli -g"
+script:
+grunt jshint:all

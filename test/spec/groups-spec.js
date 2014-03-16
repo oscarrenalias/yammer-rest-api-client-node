@@ -1,5 +1,3 @@
-"use strict";
-
 var YammerGroupsAPI = require("../../lib/groups");
 var config = require('../helper/testconfig');
 var nock = require('nock');
