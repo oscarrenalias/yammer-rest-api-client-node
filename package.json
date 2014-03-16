@@ -10,7 +10,7 @@
     "url": "https://github.com/oscarrenalias/yammer-rest-api-client-node.git"
   },
   "scripts": {
-    "test": "vows test/*.js --spec"
+    "test": "jasmine-node test/spec"
   },
   "license": "Apache Software License 2.0",
   "engines": {
