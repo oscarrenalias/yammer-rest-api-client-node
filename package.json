@@ -24,6 +24,8 @@
     "grunt-vows": "^0.4.0",
     "grunt-contrib-jshint": "^0.9.2",
     "grunt-contrib-clean": "^0.5.0",
-    "vows": "^0.7.0"
+    "vows": "^0.7.0",
+    "nock": "^0.27.2",
+    "jasmine-node": "^1.14.2"
   }
 }
