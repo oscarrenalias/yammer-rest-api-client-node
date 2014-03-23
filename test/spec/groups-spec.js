@@ -119,7 +119,7 @@ describe("Test groups API client", function () {
     });
   });
 
-  it("creating a group without an empty name should fail", function (done) {
+  it("creating a group with an empty name should fail", function (done) {
     var name = "";
     var setupCreateGroups = nock('https://www.yammer.com')
                 .post('/api/v1/groups.json?name=' + encodeURIComponent(name))
@@ -131,16 +131,28 @@ describe("Test groups API client", function () {
     });
   });
 
-  // it("deleting a group should return a 200", function (done) {
-  //   var groupId = 19343415;
-  //   var setupCreateGroups = nock('https://www.yammer.com')
-  //               .delete('/api/v1/groups/' + groupId +'.json?')
-  //               .reply();
+  it("updating a group should return nothing", function (done) {
+    var groupId = 415532232332;
+    var name = "Updated name";
+    var setupCreateGroups = nock('https://www.yammer.com')
+                .put('/api/v1/groups/' + groupId + '.json?name=' + encodeURIComponent(name)) 
+                .reply(200);
                 
-  //   groupsClient.delete(groupId, function(error, data){
-  //     expect(error).toBe(null);
-  //     done();
-  //   });
-  // });
+    groupsClient.update(groupId, {name: name}, function(error, data){
+      done();      
+    });
+  });
+
+  it("deleting a group should return a 200", function (done) {
+    var groupId = 19343415;
+    var setupCreateGroups = nock('https://www.yammer.com')
+                .delete('/api/v1/groups/' + groupId +'.json?')
+                .reply(200);
+                
+    groupsClient.delete(groupId, function(error, data){
+      expect(error).toBe(null);
+      done();
+    });
+  });
 
 });
