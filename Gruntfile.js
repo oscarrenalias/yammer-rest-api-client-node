@@ -33,4 +33,5 @@ module.exports = function(grunt) {
 
   // Default task.  
   grunt.registerTask('default', 'jasmine_node');  
+  grunt.registerTask('test', 'jasmine_node');
 };
