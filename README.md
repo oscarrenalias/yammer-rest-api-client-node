@@ -116,6 +116,12 @@ Unit tests are implemented with [Vows](http://vowsjs.org) and are located in the
 
 In order to execute the unit tests, edit first file tests/testconfig.js and provide your own OAuth 2.0 access token.
 
+How to contribute
+=================
+Preferably, contributions are to be provided as pull requests from your own repository, which will be reviewed and merged if found suitable.
+
+The project does not have clear guidelines defining when a release is made but we'd rather release early and often. When sending a pull request, there is no need to increase the version number in package.json but do suggest if you think that the pull request warrants a quick release. 
+
 License
 ========
 Apache Software License 2.0: http://www.apache.org/licenses/LICENSE-2.0
