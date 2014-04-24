@@ -128,8 +128,9 @@ Apache Software License 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
 Changelog
 =========
-**Version 0.1.0**: Initial version
-**Version 0.2.0**: Added support for the notifications API by @CodeOtter
+* **Version 0.2.3**: Added support for retrieving message attachments by @willeeklund, internal plumbing changes by @tbenade
+* **Version 0.2.0**: Added support for the notifications API by @CodeOtter
+* **Version 0.1.0**: Initial version
 
 TODO
 ====
