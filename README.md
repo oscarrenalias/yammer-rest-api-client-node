@@ -19,7 +19,7 @@ Currently, the following are supported:
 * Group memberships: 0 %
 * Relationships: 0 %
 * Suggestion: 0 %
-* Threads: 0 %
+* Threads: 100 %
 * Subscriptions: 0 %
 * Autocomplete: 0 %
 * Invitations: 0 %
