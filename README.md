@@ -128,6 +128,7 @@ Apache Software License 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
 Changelog
 =========
+* **Version 0.2.5**: Added support for threads by @tbenade
 * **Version 0.2.4**: Added support for likes by @tbenade
 * **Version 0.2.3**: Added support for retrieving message attachments by @willeeklund, internal plumbing changes by @tbenade
 * **Version 0.2.0**: Added support for the notifications API by @CodeOtter
