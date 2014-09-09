@@ -17,7 +17,7 @@ Currently, the following are supported:
 * Notifications: 25%
 * Likes: 0 %
 * Group memberships: 0 %
-* Relationships: 0 %
+* Relationships: 100 %
 * Suggestion: 0 %
 * Threads: 100 %
 * Subscriptions: 0 %
@@ -128,6 +128,7 @@ Apache Software License 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
 Changelog
 =========
+* **Version 0.2.6**: Users replacing User. Added support for relationships by @webmutation
 * **Version 0.2.5**: Added support for threads by @tbenade
 * **Version 0.2.4**: Added support for likes by @tbenade
 * **Version 0.2.3**: Added support for retrieving message attachments by @willeeklund, internal plumbing changes by @tbenade
