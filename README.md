@@ -1,3 +1,9 @@
+# Note
+
+This project is no longer maintained and is left here for historical reasons.
+
+# Please head to https://github.com/mauricionr/yammer-rest-api-client-node for the most recent active fork.
+
 [![Code Climate](https://codeclimate.com/github/oscarrenalias/yammer-rest-api-client-node.png)](https://codeclimate.com/github/oscarrenalias/yammer-rest-api-client-node)
 
 [![Build Status](https://travis-ci.org/oscarrenalias/yammer-rest-api-client-node.png?branch=master)](https://travis-ci.org/oscarrenalias/yammer-rest-api-client-node)
